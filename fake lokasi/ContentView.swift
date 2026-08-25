@@ -38,6 +38,31 @@ final class GPSLocationSpoofingService: ObservableObject {
         candidates.first { FileManager.default.fileExists(atPath: $0) }
     }
 
+    private func runTool(arguments: [String]) -> (exitCode: Int32, output: String, error: String) {
+        let process = Process()
+        process.executableURL = URL(fileURLWithPath: spoofToolPath)
+        process.arguments = arguments
+
+        let outputPipe = Pipe()
+        let errorPipe = Pipe()
+        process.standardOutput = outputPipe
+        process.standardError = errorPipe
+
+        do {
+            try process.run()
+            process.waitUntilExit()
+
+            let outputData = outputPipe.fileHandleForReading.readDataToEndOfFile()
+            let errorData = errorPipe.fileHandleForReading.readDataToEndOfFile()
+
+            let output = String(data: outputData, encoding: .utf8) ?? ""
+            let errorOutput = String(data: errorData, encoding: .utf8) ?? ""
+            return (process.terminationStatus, output, errorOutput)
+        } catch {
+            return (-1, "", "Command failed: \(error.localizedDescription)")
+        }
+    }
+
     private func runShellCommand(_ command: String) -> (exitCode: Int32, output: String, error: String) {
         let process = Process()
         process.executableURL = URL(fileURLWithPath: "/bin/zsh")
@@ -125,7 +150,7 @@ final class GPSLocationSpoofingService: ObservableObject {
         lastLatitude = lat
         lastLongitude = lon
 
-        let result = runShellCommand("\"\(spoofToolPath)\" -u \(udid) \(String(format: \"%.6f\", lat)) \(String(format: \"%.6f\", lon)) 2>&1")
+        let result = runTool(arguments: ["-u", udid, "--", String(format: "%.6f", lat), String(format: "%.6f", lon)])
 
         let success = result.exitCode == 0
         isSpoofing = success
@@ -157,7 +182,7 @@ final class GPSLocationSpoofingService: ObservableObject {
             return
         }
 
-        let result = runShellCommand("\"\(spoofToolPath)\" -u \(udid) -r 2>&1")
+        let result = runTool(arguments: ["-u", udid, "--", "reset"])
         isSpoofing = false
         statusMessage = result.exitCode == 0 ? "Spoofing stopped" : (result.error.isEmpty ? result.output : result.error)
 

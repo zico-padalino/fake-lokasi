@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		04753D5C303DCE7600252529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04753D45303DCE7200252529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04753D4C303DCE7200252529;
+			remoteInfo = "fake lokasi";
+		};
+		04753D66303DCE7600252529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04753D45303DCE7200252529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04753D4C303DCE7200252529;
+			remoteInfo = "fake lokasi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04753D4D303DCE7200252529 /* fake lokasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fake lokasi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04753D5B303DCE7600252529 /* fake lokasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fake lokasiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04753D65303DCE7600252529 /* fake lokasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fake lokasiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04753D4F303DCE7200252529 /* fake lokasi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "fake lokasi";
+			sourceTree = "<group>";
+		};
+		04753D5E303DCE7600252529 /* fake lokasiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "fake lokasiTests";
+			sourceTree = "<group>";
+		};
+		04753D68303DCE7600252529 /* fake lokasiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "fake lokasiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04753D4A303DCE7200252529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04753D58303DCE7600252529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04753D62303DCE7600252529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04753D44303DCE7200252529 = {
+			isa = PBXGroup;
+			children = (
+				04753D4F303DCE7200252529 /* fake lokasi */,
+				04753D5E303DCE7600252529 /* fake lokasiTests */,
+				04753D68303DCE7600252529 /* fake lokasiUITests */,
+				04753D4E303DCE7200252529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04753D4E303DCE7200252529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04753D4D303DCE7200252529 /* fake lokasi.app */,
+				04753D5B303DCE7600252529 /* fake lokasiTests.xctest */,
+				04753D65303DCE7600252529 /* fake lokasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04753D4C303DCE7200252529 /* fake lokasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04753D6F303DCE7600252529 /* Build configuration list for PBXNativeTarget "fake lokasi" */;
+			buildPhases = (
+				04753D49303DCE7200252529 /* Sources */,
+				04753D4A303DCE7200252529 /* Frameworks */,
+				04753D4B303DCE7200252529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04753D4F303DCE7200252529 /* fake lokasi */,
+			);
+			name = "fake lokasi";
+			packageProductDependencies = (
+			);
+			productName = "fake lokasi";
+			productReference = 04753D4D303DCE7200252529 /* fake lokasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04753D5A303DCE7600252529 /* fake lokasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04753D72303DCE7600252529 /* Build configuration list for PBXNativeTarget "fake lokasiTests" */;
+			buildPhases = (
+				04753D57303DCE7600252529 /* Sources */,
+				04753D58303DCE7600252529 /* Frameworks */,
+				04753D59303DCE7600252529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04753D5D303DCE7600252529 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04753D5E303DCE7600252529 /* fake lokasiTests */,
+			);
+			name = "fake lokasiTests";
+			packageProductDependencies = (
+			);
+			productName = "fake lokasiTests";
+			productReference = 04753D5B303DCE7600252529 /* fake lokasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04753D64303DCE7600252529 /* fake lokasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04753D75303DCE7600252529 /* Build configuration list for PBXNativeTarget "fake lokasiUITests" */;
+			buildPhases = (
+				04753D61303DCE7600252529 /* Sources */,
+				04753D62303DCE7600252529 /* Frameworks */,
+				04753D63303DCE7600252529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04753D67303DCE7600252529 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04753D68303DCE7600252529 /* fake lokasiUITests */,
+			);
+			name = "fake lokasiUITests";
+			packageProductDependencies = (
+			);
+			productName = "fake lokasiUITests";
+			productReference = 04753D65303DCE7600252529 /* fake lokasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04753D45303DCE7200252529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					04753D4C303DCE7200252529 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					04753D5A303DCE7600252529 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 04753D4C303DCE7200252529;
+					};
+					04753D64303DCE7600252529 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 04753D4C303DCE7200252529;
+					};
+				};
+			};
+			buildConfigurationList = 04753D48303DCE7200252529 /* Build configuration list for PBXProject "fake lokasi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04753D44303DCE7200252529;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04753D4E303DCE7200252529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04753D4C303DCE7200252529 /* fake lokasi */,
+				04753D5A303DCE7600252529 /* fake lokasiTests */,
+				04753D64303DCE7600252529 /* fake lokasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04753D4B303DCE7200252529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04753D59303DCE7600252529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04753D63303DCE7600252529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04753D49303DCE7200252529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04753D57303DCE7600252529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04753D61303DCE7600252529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04753D5D303DCE7600252529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04753D4C303DCE7200252529 /* fake lokasi */;
+			targetProxy = 04753D5C303DCE7600252529 /* PBXContainerItemProxy */;
+		};
+		04753D67303DCE7600252529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04753D4C303DCE7200252529 /* fake lokasi */;
+			targetProxy = 04753D66303DCE7600252529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04753D6D303DCE7600252529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04753D6E303DCE7600252529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04753D70303DCE7600252529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "fake lokasi/fake_lokasi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "untirta.fake-lokasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04753D71303DCE7600252529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "fake lokasi/fake_lokasi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "untirta.fake-lokasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04753D73303DCE7600252529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "untirta.fake-lokasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fake lokasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fake lokasi";
+			};
+			name = Debug;
+		};
+		04753D74303DCE7600252529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "untirta.fake-lokasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fake lokasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fake lokasi";
+			};
+			name = Release;
+		};
+		04753D76303DCE7600252529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "untirta.fake-lokasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "fake lokasi";
+			};
+			name = Debug;
+		};
+		04753D77303DCE7600252529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "untirta.fake-lokasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "fake lokasi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04753D48303DCE7200252529 /* Build configuration list for PBXProject "fake lokasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04753D6D303DCE7600252529 /* Debug */,
+				04753D6E303DCE7600252529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04753D6F303DCE7600252529 /* Build configuration list for PBXNativeTarget "fake lokasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04753D70303DCE7600252529 /* Debug */,
+				04753D71303DCE7600252529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04753D72303DCE7600252529 /* Build configuration list for PBXNativeTarget "fake lokasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04753D73303DCE7600252529 /* Debug */,
+				04753D74303DCE7600252529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04753D75303DCE7600252529 /* Build configuration list for PBXNativeTarget "fake lokasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04753D76303DCE7600252529 /* Debug */,
+				04753D77303DCE7600252529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04753D45303DCE7200252529 /* Project object */;
+}
